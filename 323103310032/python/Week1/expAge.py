@@ -1,6 +1,6 @@
 class InvalidAge(Exception):
     pass
-age = int(input("Enter your age(Years): "),end="")
+age = int(input("Enter your age(Years): "))
 if age<0:
     raise InvalidAge("Invalid Age")
 elif age < 18:
