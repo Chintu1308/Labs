@@ -75,5 +75,6 @@ public class Multipleinherit{
           System.out.println("invalid choice");
       }
     }
+    sc.close();
   }
 }

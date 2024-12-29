@@ -1,0 +1,3 @@
+Alphabets: 54
+Digits: 35
+Special Characters: 35

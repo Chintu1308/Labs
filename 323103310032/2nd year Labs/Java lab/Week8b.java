@@ -49,7 +49,7 @@ public class Week8b {
                     }
                 } else {
                     System.err.println("Malformed line: " + line);
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter("c:/Users/bhhc1/Desktop/Hari Hara Charan/323103310032/2nd year Labs/Java lab/sorted_supermarket_data.csv"))) {
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();

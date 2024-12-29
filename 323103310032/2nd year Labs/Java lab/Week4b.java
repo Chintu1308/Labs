@@ -25,5 +25,6 @@ class Week4b {
             System.out.println("Vowel count in " + str[i] + " is " + vow);
             System.out.println("Consonant count in " + str[i] + " is " + cons);
         }
+        sc.close();
     }
 }

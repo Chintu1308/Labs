@@ -13,5 +13,6 @@ public class Week1c {
         
         System.out.println("The area is " + a);
         System.out.println("The perimeter is " + p);
+        sc.close();
     }
 }

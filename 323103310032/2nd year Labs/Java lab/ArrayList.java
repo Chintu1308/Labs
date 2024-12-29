@@ -46,11 +46,11 @@ public class ArrayList {
 
     public static void main(String a[]){
         ArrayList list = new ArrayList();
-        list.add(new Integer(2));
-        list.add(new Integer(5));
-        list.add(new Integer(1));
-        list.add(new Integer(23));
-        list.add(new Integer(14));
+        list.add(Integer.valueOf(2));
+        list.add(Integer.valueOf(5));
+        list.add(Integer.valueOf(1));
+        list.add(Integer.valueOf(23));
+        list.add(Integer.valueOf(14));
         for(int i=0; i<list.size(); i++){
             System.out.print(list.get(i)+" ");
         }

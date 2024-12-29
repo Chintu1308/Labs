@@ -1,0 +1,6 @@
+
+Hello World! This is a test file.
+It contains:
+- Alphabets: ABCdef
+- Digits: 123456
+- Special characters: @#$%^&*()

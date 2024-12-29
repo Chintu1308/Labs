@@ -33,5 +33,6 @@ public class Week4c {
         } else {
             System.out.println("The strings are not anagrams");
         }
+        sc.close();
     }
 }
