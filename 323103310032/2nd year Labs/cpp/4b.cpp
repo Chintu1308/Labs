@@ -10,11 +10,11 @@ public:
         cout << "Base class called" << endl;
         cout << "Base class variable: " << base_var << endl;
     }
-    void show(int x) {
+    void show(int x) { // Function overloading
         cout << "Base class called with parameters" << endl;
         cout << "Base class variable: " << x << endl;
     }
-    void operator+(int x) {
+    void operator+(int x) { // Operator overloading
         base_var += x;
     }
 };
@@ -22,17 +22,17 @@ public:
 class Derived : public Base {
 public:
     int derived_var;
-    void show() {
+    void show() { // Function overriding
         cout << "Derived class called" << endl;
         cout << "Base class variable: " << base_var << endl;
         cout << "Derived class variable: " << derived_var << endl;
     }
-    void show(int x) {
+    void show(int x) { // Function overloading and overriding
         cout << "Derived class called" << endl;
         cout << "Base class variable: " << x << endl;
         cout << "Derived class variable: " << derived_var << endl;
     }
-    void operator+(int x) {
+    void operator+(int x) { // Operator overloading
         base_var += x;
         derived_var += x;
     }
