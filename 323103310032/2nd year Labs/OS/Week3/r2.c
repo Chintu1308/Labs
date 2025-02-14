@@ -9,5 +9,6 @@ int main()
     printf("\n Your text is read as");
     write(1, buff, nread); // Print characters from the buffer on the screen
     printf("\n Number of characters read: %d", nread);
+    printf("\n");
     return 0;
 }
