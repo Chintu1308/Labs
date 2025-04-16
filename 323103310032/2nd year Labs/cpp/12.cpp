@@ -9,54 +9,44 @@ class Queue
     queue<int> q;
 
 public:
-    void push(int x)
-    {
+    void push(int x){
         q.push(x);
     }
 
-    void pop()
-    {
-        if (q.empty())
-        {
+    void pop(){
+        if (q.empty()){
             cout << "Queue is empty" << endl;
             return;
         }
         q.pop();
     }
 
-    int front()
-    {
-        if (q.empty())
-        {
+    int front(){
+        if (q.empty()){
             cout << "Queue is empty" << endl;
             return -1;
         }
         return q.front();
     }
 
-    int back()
-    {
-        if (q.empty())
-        {
+    int back(){
+        if (q.empty()){
             cout << "Queue is empty" << endl;
             return -1;
         }
         return q.back();
     }
 
-    int size()
-    {
+    int size(){
         return q.size();
     }
 
-    bool empty()
-    {
+    bool empty(){
         return q.empty();
     }
 };
 
-int main()
-{
+int main(){
     Queue q;
     int x, n;
     cout << "1. Push\n2. Pop\n3. Front\n4. Back\n5. Size\n6. Exit" << endl;
@@ -64,7 +54,7 @@ int main()
         cout << "Enter your choice: ";
         cin >> x;
         switch (x)
-        {
+{
     case 1:
         cout << "Enter the element to push: ";
         cin >> n;
